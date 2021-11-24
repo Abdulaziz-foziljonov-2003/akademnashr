@@ -1,0 +1,58 @@
+
+
+
+.logo{
+    /* logo */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 227px;
+height: 59.18px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 382px;
+}
+
+.sitenav{ 
+   
+/* sitenav-list */
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 3px;
+
+position: static;
+width: 710px;
+height: 59px;
+left: 590px;
+top: 20.09px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 382px;
+}
+.sitenav-link{
+    text-decoration: none;
+}
